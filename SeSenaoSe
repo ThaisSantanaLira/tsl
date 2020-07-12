@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		// SE E SENAO condição. podendo ser verdadeiro ou falso, para tomar uma decisão
+		//exemplo: Dada uma idade apresente se a pessoa pode voltar ou não
+		//REGRAS: <16 anos NÃO PODE VOTAR| entre 16~17 VOTO OPICIONAL| entre 18~69 VOTO OBRIGATÓRIO| >70 VOTO OPICIONAL
+		inteiro idade
+		escreva("Digite sua idade: ")
+		leia(idade)
+			se (idade < 16) 
+			{	
+				escreva("NÃO PODE VOTAR!")
+				
+			}senao se (idade < 18){
+					
+				escreva("VOTO OPCIONAL")
+				
+			}senao se(idade < 70){
+					
+				escreva("VOTO OBRIGATÓRIO")
+					
+			}senao{
+						
+						escreva("VOTO OPCIONAL")
+	  	//SE DEPOIS SENAO, são complementos. Não colocar apenas "se".
+		//SENAO SE pode aparecer varias vezes dentro de se ou senao, sempre dentro		
+					}
+					}
+				}
