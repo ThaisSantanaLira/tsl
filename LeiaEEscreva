@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro nascimento, idade
+		// comando leia, atribuicão de "igual" pelo computador
+		// toda "leia" precisa de um "escreva" antes 
+		
+    escreva("Digite seu ano de nascimento:")
+		leia(nascimento)
+		idade = 2020 - nascimento
+		escreva("Sua idade será:", idade)
+	}
+}
