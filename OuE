@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro idade
+		escreva("Digite sua idade: ")
+		leia(idade)
+			se (idade < 16) 
+			{	
+				escreva("NÃO PODE VOTAR!")
+
+				// E só vai ser verdadeiro se as comparações forem verdadeiras | OU só vai ser verdadeiro se tiver uma comparação verdadeira.
+			}senao se ((idade < 18)  ou (idade > 70)){
+					
+				escreva("VOTO OPCIONAL")
+				
+			}senao se(idade < 70){
+					
+				escreva("VOTO OBRIGATÓRIO")
+					
+			}senao{
+						
+						escreva("VOTO OPCIONAL")
+	}
+}
+}
