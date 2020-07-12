@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{	//(inicialização ; condição ; atualização (incremento ou decremento))
+		para (inteiro i=0; i < 100 ; i++){ //i++ = i = i + 1 | i = i + 10 (10 em 10)| i = i + 5 (5 em 5)
+			//o i = i + 1 pode ser crescente (+) ou decrescente (-) mudando a condição.  
+			//exemplo: (inteiro i=100; i > 0 ; i = i - 10)
+			escreva("Valor do i:", i, "\n") 
+		}
+		
+	}
+}
