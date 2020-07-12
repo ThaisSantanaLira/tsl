@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	  inteiro a, b, soma, subtracao, divisao, multiplicacao
+	  	escreva("Digite valor de a: ")
+	  	leia(a)
+	  	escreva("Digite valor de b: ") 
+	  	leia(b)
+	  		soma = a + b
+	  		subtracao = a - b
+	  		divisao = a / b
+	  		multiplicacao = a * b
+        
+	  	escreva("\n soma = ", soma)
+	  	escreva("\n subtracao = ", subtracao)
+	  	escreva("\n divisao = ", divisao)
+	  	escreva("\n multiplicacao = ", multiplicacao)
+	}
+}
